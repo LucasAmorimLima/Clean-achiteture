@@ -1,0 +1,1 @@
+Em usecases deve-se criar a regra de negócio da aplicação

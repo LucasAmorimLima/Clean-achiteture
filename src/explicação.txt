@@ -1,0 +1,12 @@
+data: Camada responsável pela regra de negócio e
+criar uma interface que servirá de modelo para os repostórios que seram criados na camada de Infrastructure
+
+domain: Camada responsável pelos casos de uso e modelos de dados
+
+infra: Camada  responsável por criar as classes que implementam nossos modelos de repositórios criados 
+no Data Layer e exportar abstrações para a comunicação com os bancos de dados
+
+main: Conhecido como Composition Root, essa é a camada mais suja da aplicação, onde escondemos o acoplamento 
+de alguns pontos do projeto
+
+presentation: Camada onde serão criados os controllers que terão acesso aos casos de uso da camada domain

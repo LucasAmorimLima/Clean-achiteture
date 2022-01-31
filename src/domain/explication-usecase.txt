@@ -1,0 +1,13 @@
+O software nesta camada contém regras de negócios específicas do aplicativo. 
+Encapsula e implementa todos os casos de uso do sistema. Esses casos de uso 
+orquestram o fluxo de dados de e para as entidades, e orientam essas entidades
+a usar suas regras empresariais amplas para atingir os objetivos do caso de uso.
+
+Não esperamos que mudanças nessa camada afetem as entidades. 
+Também não esperamos que essa camada seja afetada por alterações em externalidades 
+como o banco de dados, a interface do usuário ou qualquer um dos quadros comuns. 
+Esta camada está isolada de tais preocupações.
+
+Esperamos,no entanto, que as alterações no funcionamento do aplicativo afetarão os casos de uso e,
+portanto, o software nesta camada. Se os detalhes de uma alteração de caso de uso, então algum 
+código nesta camada certamente será afetado.

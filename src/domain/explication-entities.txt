@@ -1,0 +1,5 @@
+A pasta entities exporta todos os modelos de dados que minha aplicação usará. 
+Como boa prática, para iniciarmos um projeto que seguirá os conceitos de Clean Architecure, 
+o ideal é criarmos a nossa entidade (ou interface como alguns preferem) antes de determinarmos qual banco de dados ou API
+de terceiros vamos utilizar.
+Dessa forma a nossa entidade de dados não sofrerá influências externas se tornando desacoplada de qualquer fonte de dados.
